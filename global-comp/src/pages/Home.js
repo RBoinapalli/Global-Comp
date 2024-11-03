@@ -1,7 +1,7 @@
 // src/pages/Home.js
 import React from 'react';
 import '../css/styles.css';
-import bannerImage from '../assets/images/banner.png'; // Example banner image
+
 
 const Home = () => {
   return (
