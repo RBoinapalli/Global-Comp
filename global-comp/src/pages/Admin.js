@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './styles.css'; // Ensure this CSS file is configured for React
+import '../css/styles.css';
+
 
 const Admin = () => {
   const [jobTitle, setJobTitle] = useState('');

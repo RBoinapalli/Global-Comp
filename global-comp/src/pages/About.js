@@ -1,6 +1,6 @@
 // src/pages/About.js
 import React from 'react';
-import '../styles.css';
+import '../css/styles.css';
 import missionImage from '../assets/images/ourmission.png';
 import visionImage from '../assets/images/ourvision.png';
 import goalImage from '../assets/images/ourgoals.png';

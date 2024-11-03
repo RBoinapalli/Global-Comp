@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './Jobs.css';
+import '../css/styles.css';
+
 
 const Jobs = () => {
     const [selectedJob, setSelectedJob] = useState(null);
