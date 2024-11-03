@@ -1,0 +1,75 @@
+.logo h1 {
+    font-size: 2em;
+    margin-top: 40px; /* Remove default margin from h1 */
+}
+
+.banner h2 {
+    font-size: 2.2rem;
+}
+
+.badges, .about-info, .services-container {
+    flex-direction: column;
+}
+
+.badge, .vision, .mission, .goal {
+    width: 80%;
+}
+.form-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-form, #map {
+    min-width: unset; /* Reset minimum width */
+    width: 100%; /* Full width on mobile */
+    margin-bottom: 20px; /* Add space between form and map */
+}
+
+.services-image {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.modal-content {
+    width: 80%;
+}
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+}
+
+.nav-links.open {
+    display: flex;
+}
+
+.nav-links li {
+    margin: 10px 0;
+}
+
+.nav-toggle {
+    display: inline-block;
+}
+
+.badge {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.services-content, .services-image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+header {
+    flex-direction: row; /* Stack the title and nav vertically */
+     /* Align nav links below the title */
+}
+
+.nav-links.open {
+    display: flex;
+}
+.vision, .mission, .goal {
+    margin-top: 10%;
+   
+}
